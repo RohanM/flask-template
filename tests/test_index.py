@@ -8,4 +8,4 @@ def index(client):
 
 
 def test_title(index):
-    assert index.select('h2')[0].string == 'COVID Futures'
+    assert index.select('h2')[0].string == 'Site Title'

@@ -1,6 +1,4 @@
-# COVID Futures
-
-Predictions about Australia's COVID future.
+# Flask + Tailwind + pytest Template
 
 
 ## Getting Started
