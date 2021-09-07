@@ -11,6 +11,7 @@ app = {editable = true, path = "."}
 pytest = "*"
 pytest-flask = "*"
 pytest-watch = "*"
+bs4 = "*"
 
 [requires]
 python_version = "3.8"
