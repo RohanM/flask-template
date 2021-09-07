@@ -1,0 +1,6 @@
+app/static/tailwind.css
+
+.ipynb_checkpoints/
+
+__pycache__/
+*.egg-info/
