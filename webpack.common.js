@@ -6,4 +6,14 @@ module.exports = {
     filename: 'app.js',
     path: path.resolve(__dirname, 'app', 'static'),
   },
+
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
+  },
 };
