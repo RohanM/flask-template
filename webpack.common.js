@@ -6,6 +6,4 @@ module.exports = {
     filename: 'app.js',
     path: path.resolve(__dirname, 'app', 'static'),
   },
-  devtool: 'eval-source-map',
-  watch: true,
 };
