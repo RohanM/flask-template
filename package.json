@@ -1,0 +1,23 @@
+{
+  "name": "flask-template",
+  "version": "1.0.0",
+  "description": "Template app for Flask",
+  "private": true,
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanM/flask-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RohanM/flask-template/issues"
+  },
+  "homepage": "https://github.com/RohanM/flask-template#readme"
+}

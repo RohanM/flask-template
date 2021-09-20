@@ -40,4 +40,4 @@ pipenv run test-watch
 
 ## Licence
 
-Copyright Rohan Mitchell, released under GPL v3 licence.
+Copyright Rohan Mitchell, released under MIT licence.
