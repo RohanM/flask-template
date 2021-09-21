@@ -1,6 +1,8 @@
-app/static/tailwind.css
+app/static/app.js
 
 .ipynb_checkpoints/
 
 __pycache__/
 *.egg-info/
+
+node_modules/
