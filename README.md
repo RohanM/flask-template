@@ -24,6 +24,16 @@ npm run webpack:dev
 npm run webpack:prod
 ```
 
+Configure the database (to override the SQLite default):
+
+```
+echo "export FLASK_TEMPLATE_DATABASE_URI='mydb://user:pass@localhost/db'" >> .env
+```
+
+```
+pipenv run load-schema
+```
+
 Run the development server:
 
 ```
@@ -36,6 +46,20 @@ Run tests:
 pipenv run test
 # or
 pipenv run test-watch
+```
+
+
+## Deployment
+
+The production database URL is configured via the `FLASK_TEMPLATE_DATABASE_URI` environment variable. For
+instructions for PythonAnywhere hosting, see:
+
+https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/
+
+To initialise the production database:
+
+```
+pipenv run load-schema
 ```
 
 
