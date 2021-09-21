@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 flask = "*"
 app = {editable = true, path = "."}
+flask-sqlalchemy = "*"
+python-dotenv = "*"
 
 [dev-packages]
 pytest = "*"
@@ -20,3 +22,4 @@ python_version = "3.8"
 server = "bash -c 'FLASK_APP=app FLASK_ENV=development flask run'"
 test = "pytest"
 test-watch = "ptw"
+load-schema = "./bin/load_schema.py"
